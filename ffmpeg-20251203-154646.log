@@ -1,0 +1,43 @@
+ffmpeg started on 2025-12-03 at 15:46:46
+Report written to "ffmpeg-20251203-154646.log"
+Log level: 48
+Command line:
+/usr/bin/ffmpeg -report -loglevel debug -rtsp_transport tcp -timeout 5000000 -rw_timeout 5000000 -i rtsp://mobiphone:Hatien2025@113.163.156.210:555/4/1 -t 1 -f null -
+ffmpeg version 7.1.1 Copyright (c) 2000-2025 the FFmpeg developers
+  built with gcc 11 (Ubuntu 11.4.0-1ubuntu1~22.04)
+  configuration: --disable-decoder=amrnb --disable-gnutls --disable-liblensfun --disable-libopencv --disable-podpages --disable-sndio --disable-stripping --enable-avfilter --enable-chromaprint --enable-frei0r --enable-gcrypt --enable-gpl --enable-ladspa --enable-libaom --enable-libaribb24 --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libdc1394 --enable-libdrm --enable-libdvdnav --enable-libdvdread --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libharfbuzz --enable-libiec61883 --enable-libjack --enable-libmp3lame --enable-libmysofa --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libplacebo --enable-libpulse --enable-librabbitmq --enable-librsvg --enable-librubberband --enable-libshine --enable-libsmbclient --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libsrt --e  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.101 / 61. 19.101
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+Splitting the commandline.
+Reading option '-report' ... matched as option 'report' (generate a report) with argument '1'.
+Reading option '-loglevel' ... matched as option 'loglevel' (set logging level) with argument 'debug'.
+Reading option '-rtsp_transport' ... matched as AVOption 'rtsp_transport' with argument 'tcp'.
+Reading option '-timeout' ... matched as AVOption 'timeout' with argument '5000000'.
+Reading option '-rw_timeout' ... matched as AVOption 'rw_timeout' with argument '5000000'.
+Reading option '-i' ... matched as input url with argument 'rtsp://mobiphone:Hatien2025@113.163.156.210:555/4/1'.
+Reading option '-t' ... matched as option 't' (stop transcoding after specified duration) with argument '1'.
+Reading option '-f' ... matched as option 'f' (force container format (auto-detected otherwise)) with argument 'null'.
+Reading option '-' ... matched as output url.
+Finished splitting the commandline.
+Parsing a group of options: global .
+Applying option report (generate a report) with argument 1.
+Applying option loglevel (set logging level) with argument debug.
+Successfully parsed a group of options.
+Parsing a group of options: input url rtsp://mobiphone:Hatien2025@113.163.156.210:555/4/1.
+Successfully parsed a group of options.
+Opening an input file: rtsp://mobiphone:Hatien2025@113.163.156.210:555/4/1.
+[tcp @ 0x55d89e1a1240] No default whitelist set
+[tcp @ 0x55d89e1a1240] Original list of addresses:
+[tcp @ 0x55d89e1a1240] Address 113.163.156.210 port 555
+[tcp @ 0x55d89e1a1240] Interleaved list of addresses:
+[tcp @ 0x55d89e1a1240] Address 113.163.156.210 port 555
+[tcp @ 0x55d89e1a1240] Starting connection attempt to 113.163.156.210 port 555
+[tcp @ 0x55d89e1a1240] Successfully connected to 113.163.156.210 port 555
+[in#0 @ 0x55d89e19ddc0] Error opening input: Invalid data found when processing input
+Error opening input file rtsp://mobiphone:Hatien2025@113.163.156.210:555/4/1.
+Error opening input files: Invalid data found when processing input
